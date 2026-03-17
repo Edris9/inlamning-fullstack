@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌱 Habit Tracker</h1>
+            <p>Bygg bättre vanor, en dag i taget</p>
+        </header>
+
+        <!-- Formulär -->
+        <section class="form-section">
+            <h2 id="form-title">Lägg till ny vana</h2>
+            <div class="form">
+                <input type="hidden" id="edit-id">
+                <input type="text" id="name" placeholder="Namn (t.ex. Träna)" required>
+                <input type="text" id="description" placeholder="Beskrivning">
+                <input type="number" id="frequency" placeholder="Dagar per vecka (1-7)" min="1" max="7">
+                <div class="form-buttons">
+                    <button id="submit-btn" onclick="submitForm()">Lägg till</button>
+                    <button id="cancel-btn" class="cancel" onclick="cancelEdit()" style="display:none">Avbryt</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feedback -->
+        <div id="feedback" class="feedback" style="display:none"></div>
+
+        <!-- Lista -->
+        <section class="list-section">
+            <h2>Mina vanor</h2>
+            <div id="habits-list" class="habits-list">
+                <p class="empty">Inga vanor än. Lägg till din första! 👆</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

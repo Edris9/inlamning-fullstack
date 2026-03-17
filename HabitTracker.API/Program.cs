@@ -1,14 +1,15 @@
 using HabitTracker.API.Data;
 using Microsoft.EntityFrameworkCore;
-
+using HabitTracker.API.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<IHabitService, HabitService>();
 
 builder.Services.AddCors(options =>
 {
@@ -27,4 +28,6 @@ if (app.Environment.IsDevelopment())
 app.UseCors("AllowAll");
 app.UseAuthorization();
 app.MapControllers();
+app.UseDefaultFiles();
+app.UseStaticFiles();   
 app.Run();

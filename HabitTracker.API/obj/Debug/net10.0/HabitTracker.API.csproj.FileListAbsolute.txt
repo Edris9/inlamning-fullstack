@@ -150,3 +150,7 @@ D:\c#\Inlämningar\inlämning_fullstack\inlamning-fullstack\HabitTracker.API\obj
 D:\c#\Inlämningar\inlämning_fullstack\inlamning-fullstack\HabitTracker.API\obj\Debug\net10.0\HabitTracker.API.pdb
 D:\c#\Inlämningar\inlämning_fullstack\inlamning-fullstack\HabitTracker.API\obj\Debug\net10.0\HabitTracker.API.genruntimeconfig.cache
 D:\c#\Inlämningar\inlämning_fullstack\inlamning-fullstack\HabitTracker.API\obj\Debug\net10.0\ref\HabitTracker.API.dll
+D:\c#\Inlämningar\inlämning_fullstack\inlamning-fullstack\HabitTracker.API\bin\Debug\net10.0\HabitTracker.API.staticwebassets.runtime.json
+D:\c#\Inlämningar\inlämning_fullstack\inlamning-fullstack\HabitTracker.API\obj\Debug\net10.0\compressed\dk704lxa2d-{0}-hokwiugu6n-hokwiugu6n.gz
+D:\c#\Inlämningar\inlämning_fullstack\inlamning-fullstack\HabitTracker.API\obj\Debug\net10.0\compressed\cgnb9ie510-{0}-3vce1csv8x-3vce1csv8x.gz
+D:\c#\Inlämningar\inlämning_fullstack\inlamning-fullstack\HabitTracker.API\obj\Debug\net10.0\compressed\6yho186d8g-{0}-kzzjq3iitg-kzzjq3iitg.gz
